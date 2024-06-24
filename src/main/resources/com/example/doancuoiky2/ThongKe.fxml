@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.chart.AreaChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.doancuoiky2.Controller.ControllerAdmin">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="622.0" layoutX="1.0" stroke="BLACK" strokeType="INSIDE" width="286.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.2840909370870301" startX="0.4090908801916874" startY="0.0075757142269249345">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.029999999329447746" green="1.0" blue="0.5877909064292908" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.738596498966217" green="0.6491228342056274" blue="0.9473684430122375" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="42.0" layoutY="154.0" prefHeight="46.0" prefWidth="270.0" text="Đơn đặt xe ">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="361.0" prefHeight="38.0" prefWidth="283.0" text="Tài khoản người dùng">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="462.0" text="Tài khoản thanh toán">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="259.0" text="Thông tin xe">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <FontAwesomeIcon fill="#0be013" glyphName="USER" layoutX="7.0" layoutY="393.0" selectionStart="0" size="3em" text="" wrappingWidth="13.714285850524789">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </FontAwesomeIcon>
+      <FontAwesomeIcon fill="#242827" glyphName="CREDIT_CARD" layoutX="1.0" layoutY="489.0" size="2em" />
+      <Label layoutX="34.0" layoutY="564.0" text="Báo cáo thống kê">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <FontAwesomeIcon fill="#7e841a" glyphName="LINE_CHART" layoutX="7.0" layoutY="591.0" size="2em" text="" wrappingWidth="13.714285850524789" />
+      <FontAwesomeIcon fill="#232322" glyphName="USER" layoutX="7.0" layoutY="187.0" size="2.5em" text="" wrappingWidth="13.714285850524789">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </FontAwesomeIcon>
+      <FontAwesomeIcon glyphName="CAR" layoutX="7.0" layoutY="287.0" size="2em" text="" />
+      <ImageView fitHeight="104.0" fitWidth="112.0" layoutX="82.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GUI_logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="79.0" layoutY="95.0" prefHeight="46.0" prefWidth="110.0" text="ADMIN">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Line endX="153.0" fill="#c3d1b9" layoutX="130.0" layoutY="143.0" startX="-126.59999084472656" strokeWidth="3.0" />
+      <ImageView fitHeight="128.0" fitWidth="231.0" layoutY="602.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@taxi.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="334.0" layoutY="24.0" prefHeight="598.0" prefWidth="853.0">
+         <children>
+            <AreaChart layoutX="9.0" layoutY="6.0" prefHeight="578.0" prefWidth="838.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </AreaChart>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

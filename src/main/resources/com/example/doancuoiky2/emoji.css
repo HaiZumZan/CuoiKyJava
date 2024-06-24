@@ -1,0 +1,10 @@
+.label:hover{
+    -fx-text-fill: blue;
+    -fx-cursor: hand;
+}
+.button:hover{
+    -fx-background-color: linear-gradient(blueviolet,cyan);
+    -fx-cursor: hand;
+    -fx-background-radius: 25px;
+    -fx-text-fill: #fff;
+}

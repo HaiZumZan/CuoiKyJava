@@ -1,0 +1,12 @@
+/* Định nghĩa kiểu cho nút nhấn */
+.button {
+    -fx-border-radius: 5px; /* Bo tròn viền nút */
+    -fx-background-radius: 5px; /* Bo tròn nền nút */
+    -fx-cursor: default; /* Con trỏ mặc định */
+}
+
+/* Định nghĩa kiểu cho nút khi trỏ chuột đến */
+.button:hover {
+    -fx-background-color:  green;
+    -fx-cursor: hand; /* Thay đổi con trỏ thành hình bàn tay */
+}

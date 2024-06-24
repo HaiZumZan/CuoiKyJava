@@ -1,0 +1,19 @@
+/* Định nghĩa kiểu cho nút nhấn */
+.button {
+    -fx-background-color: #0078D7; /* Màu nền mặc định */
+    -fx-padding: 10px 20px; /* Khoảng cách giữa nội dung và viền nút */
+    -fx-border-radius: 5px; /* Bo tròn viền nút */
+    -fx-background-radius: 5px; /* Bo tròn nền nút */
+    -fx-cursor: default; /* Con trỏ mặc định */
+}
+
+/* Định nghĩa kiểu cho nút khi trỏ chuột đến */
+.button:hover {
+    -fx-background-color:  blue ; /* Màu nền khi trỏ chuột đến */
+    -fx-cursor: hand; /* Thay đổi con trỏ thành hình bàn tay */
+}
+
+/* Định nghĩa kiểu cho nút khi nhấn */
+.button:pressed {
+    -fx-background-color: #003E73; /* Màu nền khi nhấn */
+}
